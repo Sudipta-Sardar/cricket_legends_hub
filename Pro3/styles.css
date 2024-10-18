@@ -1,0 +1,63 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #77d7aa;
+    color: #000000;
+}
+
+header{
+    background-color: #5988b2;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1{
+text-align: left;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li{
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.intro{
+    padding: 20px;
+    text-align: center;
+}
+
+.featured-players{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+.player-card{
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 150px;
+}
+.player-card img{
+    width: 100%;
+    height: auto;
+}
+footer{
+    background-color: #333;
+    text-align: end;
+    color: white;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}

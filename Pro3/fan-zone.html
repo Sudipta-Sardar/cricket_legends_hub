@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Fan Zone - Cricket Legends Hub</title>
+ <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Fan Zone</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="top-matches.html">Top Matches</a></li>
+                <li><a href="fan-zone.html">Fan Zone</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="fan-zone">
+        <h2>Submit Your Favourite Player Story</h2>
+        <form id="fanForm">
+            <label for="fanForm">Your Name:</label>
+            <input type="text" id="fanName" name="fanName" required><br>
+
+            <label for="favPlayer">Favourite Player:</label>
+            <input type="text" id="favPlayer" name="favPlayer" required><br>
+
+            <label for="story">Your Story:</label>
+            
+                <textarea type="story" name="story" id="story" required></textarea>
+
+                <input type="submit" value="submit">
+        </form>
+        <div id="fanStories"></div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Cricket Legends hub</p>
+    </footer>
+    
+</body>
+<script src="script.js"></script>
+</html>
